@@ -1,0 +1,55 @@
+img {
+    width: 80%;
+}
+
+p {
+    width: 80%;
+}
+
+a {
+    font-size: 1.5em;
+}
+
+nav{
+    height: 10vh;
+} 
+   
+*{
+    border: 2px solid blue 
+}
+
+img{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+h1, p {
+    text-align: center;
+}
+
+nav, footer {
+    text-align: center;
+}
+
+p{
+    background-color: red;
+}
+
+.mypara{
+    background-color: green;
+}
+
+#byui{
+    background-color: aqua;
+}
+
+a:hover {
+    background-color: grey;
+    color: steelblue;
+}
+
+a:link, a:visited{
+    color: green;
+}
