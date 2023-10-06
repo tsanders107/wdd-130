@@ -1,7 +1,7 @@
 img {
     display: block;
     margin: 0 auto;
-    max-width: 200px;
+    max-width: 150px;
   }
 
 body{
@@ -9,6 +9,7 @@ body{
   text-align: center;
   margin: 0 auto;
   display: block;
+  font-family:Arial, Helvetica, sans-serif
 }
 
 h1{
@@ -20,19 +21,19 @@ h1{
 }
 
 p {
-  color: white;
+  color: black;
   max-width: 400px;
   margin: 0 auto;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
-h2{
+h2 {
   max-width: 400px;
   margin: 0 auto;
   display: block;
+  color: white;
   text-align: center;
-  color: black;
 }
 
 h3{
@@ -41,4 +42,11 @@ h3{
   margin: 0 auto;
   display: block;
   text-align: center;
+}
+
+h4 {
+  color: black;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
 }
