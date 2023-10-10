@@ -1,0 +1,17 @@
+body{
+    margin: 0 auto;
+   max-width: 1280px;
+}
+
+.grey{
+   background-color: gray;
+   text-align: center;
+   max-width: 1280px;
+}
+
+.grey img{
+    width: 240px;
+    border: 10px solid rgb(80, 74, 74);
+    margin: 2em;
+    border-radius: 50%;
+}
