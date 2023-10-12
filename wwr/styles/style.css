@@ -1,12 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+/**  --heading-font: "IM Fell French Canon";
+  --paragraph-font: Lato, Helvetica, sans-serif; **/
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 
+body{
+    background-color:#235789 ;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+    color: #052e05;
+}
+
+/** header stuff **/
+header{
+    background-color:#235789 ;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+/** navigation styles **/
 nav a{
     text-align: center;
     color: #F7E733;
     text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color:#235789 ;
+    color: #30C5FF;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -26,55 +59,48 @@ main section{
     background-color:#235789 ;
 }
 
-body{
-    background-color:#235789 ;
-}
-header{
-    background-color:#235789 ;
-}
-nav a:hover{
-    background-color:#235789 ;
-    color: #30C5FF;
-}
+
+
 .book, .join{
     background-color:#235789 ;
     color: #F7E733;
     text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover, .join:hover{
-    background-color:#235789 ;
-    color: #30C5FF;
+    background-color:#D1603D ;
+    color: #F7E733;
 }
 .msg{
     background-color:#235789 ;
-}
-footer{
-    background-color:#235789 ;
-    color: #D1603D;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
+
 .home-title{
-    color: #30C5FF;
+    color: #052e05;
+    font-family: "IM Fell French Canon";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
-    color: #30C5FF;
+    color: #052e05;
 }
 
 .msg h2{
- color: #30C5FF;   
+ color: #052e05;
+ font-family: "IM Fell French Canon";   
 }
 
 .msg p{
     color: white;
-}
-
-footer a{
-    color: #D1603D;
-    text-decoration: none;
-}
-footer a:hover{
-    color: #30C5FF;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 .logo{
@@ -83,12 +109,39 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
     width: 100%;
 }
 
+.rivers-card, .camping-card, .rapids-card{
+     margin: 200px 0;
+}  
+
+.card-img{
+    border: 10px solid #30C5FF;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+/** footer stuff **/
+footer{
+    background-color:#235789 ;
+    color: #D1603D;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a{
+    color: #D1603D;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #30C5FF;
+}
 footer p {
     font-size: 1.2em;
 }   
@@ -96,3 +149,7 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }   
+
+footer .social img{
+    padding-top: 15px;
+}
