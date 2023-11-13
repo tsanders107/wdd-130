@@ -235,6 +235,41 @@ footer .social img{
     padding-top: 15px;
 }
 
+
+/* Blog Page**/
+.blog-main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.blog-post{
+    background-color: honeydew;
+    padding: 1.5rem;
+    color:#30C5FF;
+    border-radius: 10px;
+    margin: 0.5rem 0;
+}
+
+.blog-post h3{
+    text-align: left;
+}
+
+.blog-post p{
+    text-align: left;
+}
+
+.blog-post img{
+    float: right;
+    border-style: solid;
+    border-color: #235789;
+}
+
+.blog-main h2{
+    color: #F7E733;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
 /** media queries **/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
