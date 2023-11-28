@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordian Component Example</title>
+    <link rel="stylesheet" href="componentstyles.css" />
+  </head>
+  <body>
+    <h1>Pride and Prejudice</h1>
+    <h2>By Jane Austin</h2>
+    <button class="accordion">Section 1</button>
+    <div class="panel">
+      <p>“It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.”</p>
+    </div>
+
+    <button class="accordion">Section 2</button>
+    <div class="panel">
+      <p>“There is a stubbornness about me that never can bear to be frightened at the will of others. 
+        My courage always rises at every attempt to intimidate me.”</p>
+    </div>
+
+    <button class="accordion">Section 3</button>
+    <div class="panel">
+      <p>“I must learn to be content with being happier than I deserve.”</p>
+    </div>
+
+    <button class="accordion">Section 4</button>
+    <div class="panel">
+      <p>“Angry people are not always wise.”</p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+      });
+}
+    </script>
+  </body>
+</html>
