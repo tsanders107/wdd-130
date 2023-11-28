@@ -1,7 +1,7 @@
 
 /** header **/
 header{
-    background-color: #022B3A;
+    background-color: black;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -20,7 +20,7 @@ nav {
 
 nav a{
     text-align: center;
-    color: honeydew;
+    color: yellow;
     text-decoration: none;
     padding: 35px;
 }
@@ -28,4 +28,56 @@ nav a{
 nav a:hover{
     background-color:#022B3A ;
     color: #1F7A8C;
+}
+
+/** body**/
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #EAEAEB;
+    margin: 0;
+    padding: 0;
+}
+
+.textbox{
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 20px;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
+#hero-img{
+    width: 100%;
+    grid-column: 3/4;
+}
+
+#hero h3{
+    text-align: center;
+    color: #022B3A;
+    margin: 100px 0;
+    font-size: 30px;
+}
+
+.textbox p{
+    background-color:#022B3A ;
+    line-height: 1.5em;        
+    padding: 10px;
+    box-shadow: 5px 5px 10px #262822;    
+    color: #EAEAEB;
+    grid-column: 2/3;
+    margin: 100px 0;
+}
+
+.quote-1{
+    background-color:#022B3A ;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #262822;
+    color: #EAEAEB;
+}
+
+.quote-2{
+    background-color:#022B3A ;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #262822;
+    color: #EAEAEB;
 }
